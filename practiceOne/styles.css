@@ -1,0 +1,204 @@
+body{
+  background-color:#F3EEE7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+.mainTitle{
+  font-size: 35px;
+  color: #000;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 350px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mainDesc{
+  width: 350px;
+  text-align: center;
+
+}
+.containerMainTextArea{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin-bottom: 10px;
+}
+.containerTextAra {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.descPasswordTextArea{
+  font-weight: lighter;
+  color: #000;
+  font-size: 11px;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-family: sans-serif;
+}
+.containerFlexTextArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputText{
+  background-color: #fff;
+  height: 35px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+/* CHECK BOX*/
+.containerMainCheckbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.containerCheckbox input{
+  margin-right: 10px;
+  border: none;
+}
+input{
+  border: none;
+}
+
+.checkmark::after{
+  background-color: rebeccapurple;
+}
+.containerCheckbox:hover input ~ .checkmark{
+  background-color: aqua;
+}
+.descCheckbox{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 5px;
+}
+.descCheckboxColor{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #845EDB;
+}
+
+
+.button{
+  background-color: #845EDB;
+  border: none;
+  width: 350px;
+  height: 45px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+
+.image{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.containerSocialImg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  background-color: #fff;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.socialText{
+  font-weight: bold;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.containerMainSocialImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.descSocial{
+  font-weight: bold;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.descBottom{
+  font-weight: bold;
+  font-size: 11px;
+  font-family: sans-serif;
+
+}
+.descBottomColor{
+  font-weight: bold;
+  font-size: 11px;
+  font-family: sans-serif;
+  color:#845EDB ;
+}
+.containerDescBottom{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+
+.containerMain{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.imageIlustration{
+  width: 400px;
+  height: 400px;
+  align-self: center;
+}
+.containerMainDesc{
+  background-color: #fff;
+  margin-top: -80px;
+  z-index: 1;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.imageFeatured{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.containerDesc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.containerDescTitle{
+  font-weight: 500;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+.containerMainRight{
+  align-items: center;
+  justify-content: center;
+}
+.containerRight{
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
